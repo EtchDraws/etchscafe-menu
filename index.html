@@ -189,7 +189,13 @@ background-repeat: no-repeat;
       <h5>Full character colored</h5>
       <p class="w3-text-grey">A full colored character $14.50</p>
     </div>
+<script type="application/javascript">
+  function getIP(json) {
+    document.write("My public IP address is: ", json.ip);
+  }
+</script>
 
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
     <div id="PreMade" class="w3-container menu w3-padding-48 w3-card w3-light-grey">
       <h5>PreMade Character ref sheet</h5>
       <p class="w3-text-grey">A premade character base, free to color and change. Do not remove credit. <strong>$2.50</strong></p><br>
